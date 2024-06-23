@@ -1,0 +1,80 @@
+categories:
+  - Weather
+
+conversations:
+  - - What is the weather like today?
+    - The weather today is sunny with a high of 25 degrees.
+  - - What will the weather be like tomorrow?
+    - Tomorrow will be partly cloudy with a chance of rain.
+  - - Will it rain this week?
+    - There is a high probability of rain on Wednesday and Thursday.
+  - - Is it going to be hot this weekend?
+    - Yes, the temperature is expected to be around 30 degrees on Saturday and Sunday.
+  - - How is the weather in [city]?
+    - Let me check the weather for [city] for you.
+
+  - - What is the current temperature?
+    - The current temperature is 22 degrees Celsius.
+  - - Is it sunny outside?
+    - Yes, it is sunny outside.
+  - - Do I need an umbrella today?
+    - Yes, you might need an umbrella today as there is a chance of rain.
+  - - What is the weather forecast for this evening?
+    - This evening, it is expected to be clear with a low of 15 degrees.
+  - - How is the weather this morning?
+    - This morning, the weather is cool and breezy with temperatures around 18 degrees.
+
+  - - Will there be a thunderstorm tonight?
+    - There is a chance of thunderstorms tonight.
+  - - Is it snowing anywhere right now?
+    - It is snowing in some parts of the country.
+  - - How much rainfall is expected today?
+    - About 10mm of rainfall is expected today.
+  - - What will the temperature be tonight?
+    - The temperature tonight will drop to around 12 degrees.
+  - - Is it going to be windy tomorrow?
+    - Yes, it will be quite windy tomorrow with gusts up to 30 km/h.
+
+  - - How is the weather in New York?
+    - The weather in New York is currently sunny with a high of 24 degrees.
+  - - How is the weather in London?
+    - The weather in London is currently cloudy with a chance of rain.
+  - - How is the weather in Tokyo?
+    - The weather in Tokyo is currently rainy with a temperature of 20 degrees.
+  - - How is the weather in Sydney?
+    - The weather in Sydney is currently clear with a temperature of 26 degrees.
+  - - How is the weather in Mumbai?
+    - The weather in Mumbai is currently humid with occasional showers and a temperature of 28 degrees.
+
+  - - What is the humidity level today?
+    - The humidity level today is around 60%.
+  - - Is it foggy outside?
+    - Yes, it is quite foggy outside.
+  - - What is the UV index today?
+    - The UV index today is moderate at around 5.
+  - - How is the air quality today?
+    - The air quality today is good with an AQI of 45.
+  - - Will it be cold tomorrow morning?
+    - Yes, it will be chilly tomorrow morning with temperatures around 10 degrees.
+
+  - - What is the wind speed today?
+    - The wind speed today is around 15 km/h.
+  - - Is there a weather warning today?
+    - Yes, there is a weather warning for heavy rain today.
+  - - What was the weather like yesterday?
+    - Yesterday, the weather was mostly sunny with a high of 23 degrees.
+  - - Will it be clear skies tonight?
+    - Yes, it is expected to be clear skies tonight.
+  - - What is the chance of snow tomorrow?
+    - The chance of snow tomorrow is quite low.
+
+  - - Is it going to hail today?
+    - There is a slight chance of hail today.
+  - - What will the weather be like this weekend?
+    - This weekend will be mostly sunny with temperatures around 27 degrees.
+  - - How is the weather for outdoor activities today?
+    - The weather is perfect for outdoor activities today with clear skies and mild temperatures.
+  - - Will there be a heatwave this week?
+    - There is no heatwave expected this week.
+  - - What is the visibility like right now?
+    - The visibility right now is about 10 kilometers.
