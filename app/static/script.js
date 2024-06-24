@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const chatBox = document.getElementById("chat-box");
   const welcomeMessage =
-    "Hello! I am Travel Bloggers Low budget WeatherBot. How can I assist you today?";
+    "Hello! I am Go Travel! WeatherBot. How can I assist you today?";
   chatBox.innerHTML += `<div class="message bot"><p>${welcomeMessage}</p></div>`;
 });
 

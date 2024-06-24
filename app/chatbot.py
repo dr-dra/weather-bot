@@ -49,7 +49,7 @@ trainer.train('./corpus/weather.yml')
 # Train the chatbot with additional custom conversations
 custom_conversations = [
     "What is your name?",
-    "My name is WeatherBot.",
+    "My name is Low budget WeatherBot.",
     "How are you?",
     "I'm doing great.",
     "What can you do?",
@@ -87,7 +87,7 @@ def get_city_coordinates(city):
     response = requests.get(url)
     data = response.json()
     
-    print(f"Geocoding API response for {city}: {data}")  # Detailed logging
+    print(f"Geocoding API response for {city}: {data}")  
 
     if not data:
         print(f"Error fetching coordinates for {city}: {data}")
@@ -102,15 +102,16 @@ def fetch_weather_data(city, date=None):
         return None
     
     # Using 5 day / 3 hour forecast endpoint
+    # https://openweathermap.org/forecast5
     url = f'http://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={api_key}'
     
     response = requests.get(url)
     data = response.json()
 
-    print(f"API response for {city}: {data}")  # Detailed logging
+    print(f"API response for {city}: {data}")  # Detailed logging in terminal
 
     if 'list' not in data:
-        print(f"Error fetching weather data: {data}")
+        print(f"Error fetching weather data: {data}")  # Detailed logging in terminal
         return None
 
     forecast_list = []
@@ -197,6 +198,7 @@ def summarize_forecast(forecast_df):
 def get_chatbot_response(message):
     print(f"Received message: {message}")
     # Use regular expressions to match different patterns
+    # What is the weather (in/for/at) OXFORD yyyy/mm/dd or(today / tomorrow / yesterday)
     match = re.search(r'weather (in|for|at)\s+([\w\s]+)(?:\s+on\s+(\d{4}-\d{2}-\d{2})|\s+(today|tomorrow|yesterday))?', message.lower())
     if match:
         city = match.group(2).strip()
